@@ -1,7 +1,5 @@
 <div align="center">
 
-<h3><code>aditya@github ~ $ whoami</code></h3>
-
 <table>
   <tr>
     <td valign="top">

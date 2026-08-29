@@ -132,6 +132,8 @@ def render_svg(grid):
     svg.append('  .header-title { font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; fill: #8b949e; }')
     svg.append('  .dot { transition: fill 0.15s ease, opacity 0.15s ease; }')
     svg.append('  .dot:hover { fill: #ffffff !important; opacity: 1.0 !important; }')
+    svg.append('  .row-g { opacity: 0; animation: revealRow 0.12s ease-out forwards; }')
+    svg.append('  @keyframes revealRow { from { opacity: 0; } to { opacity: 1; } }')
     svg.append('</style>')
 
     # Background Card
@@ -148,8 +150,9 @@ def render_svg(grid):
 
     svg.append(f'<text x="{WIDTH//2}" y="22" text-anchor="middle" class="header-title">aditya@github ~ (portrait.dither.svg)</text>')
 
-    # Dither Dots & Terminal Scanline Elements
+    # Dither Dots & Terminal Scanline Elements (grouped by row for top-to-bottom reveal animation)
     for r in range(rows):
+        row_dots = []
         for c in range(cols):
             cell = grid[r][c]
             if cell['is_bg']:
@@ -164,24 +167,31 @@ def render_svg(grid):
                 # High contrast features (eyes, mustache contour, hair strands, collar)
                 w_seg = cell_w * 0.90
                 h_seg = cell_h * 0.65
-                svg.append(f'<rect class="dot" x="{(cx - w_seg/2):.2f}" y="{(cy - h_seg/2):.2f}" width="{w_seg:.2f}" height="{h_seg:.2f}" rx="1.5" fill="#79c0ff"/>')
+                row_dots.append(f'<rect class="dot" x="{(cx - w_seg/2):.2f}" y="{(cy - h_seg/2):.2f}" width="{w_seg:.2f}" height="{h_seg:.2f}" rx="1.5" fill="#79c0ff"/>')
             elif luma > 175:
                 # Face highlights -> Light blue scanline pill
                 w_seg = cell_w * 0.75
                 h_seg = cell_h * 0.50
-                svg.append(f'<rect class="dot" x="{(cx - w_seg/2):.2f}" y="{(cy - h_seg/2):.2f}" width="{w_seg:.2f}" height="{h_seg:.2f}" rx="1" fill="#58a6ff"/>')
+                row_dots.append(f'<rect class="dot" x="{(cx - w_seg/2):.2f}" y="{(cy - h_seg/2):.2f}" width="{w_seg:.2f}" height="{h_seg:.2f}" rx="1" fill="#58a6ff"/>')
             elif luma > 130:
                 # Skin base -> Medium blue dot
                 r_dot = min(cell_w, cell_h) * 0.38
-                svg.append(f'<circle class="dot" cx="{cx:.2f}" cy="{cy:.2f}" r="{r_dot:.2f}" fill="#388bfd"/>')
+                row_dots.append(f'<circle class="dot" cx="{cx:.2f}" cy="{cy:.2f}" r="{r_dot:.2f}" fill="#388bfd"/>')
             elif luma > 70:
                 # Shadows / hair body -> Dark blue dot
                 r_dot = min(cell_w, cell_h) * 0.30
-                svg.append(f'<circle class="dot" cx="{cx:.2f}" cy="{cy:.2f}" r="{r_dot:.2f}" fill="#1f6feb"/>')
+                row_dots.append(f'<circle class="dot" cx="{cx:.2f}" cy="{cy:.2f}" r="{r_dot:.2f}" fill="#1f6feb"/>')
             else:
                 # Shirt / dark hair base -> Small dark blue dot
                 r_dot = min(cell_w, cell_h) * 0.22
-                svg.append(f'<circle class="dot" cx="{cx:.2f}" cy="{cy:.2f}" r="{r_dot:.2f}" fill="#163866"/>')
+                row_dots.append(f'<circle class="dot" cx="{cx:.2f}" cy="{cy:.2f}" r="{r_dot:.2f}" fill="#163866"/>')
+
+        if row_dots:
+            delay = r * 0.035
+            svg.append(f'<g class="row-g" style="animation-delay: {delay:.3f}s;" opacity="0">')
+            svg.append(f'  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="{delay:.3f}s" fill="freeze" />')
+            svg.extend(row_dots)
+            svg.append('</g>')
 
     svg.append('</svg>')
     return "\n".join(svg) + "\n"

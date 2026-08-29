@@ -5,6 +5,8 @@
   .header-title { font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; fill: #8b949e; }
   .dot { transition: fill 0.15s ease, opacity 0.15s ease; }
   .dot:hover { fill: #ffffff !important; opacity: 1.0 !important; }
+  .row-g { opacity: 0; animation: revealRow 0.12s ease-out forwards; }
+  @keyframes revealRow { from { opacity: 0; } to { opacity: 1; } }
 </style>
 <rect width="370" height="330" rx="10" class="bg"/>
 <path d="M 0 10 A 10 10 0 0 1 10 0 L 360 0 A 10 10 0 0 1 370 10 L 370 36 L 0 36 Z" class="header-bg"/>
@@ -13,6 +15,8 @@
 <circle cx="32" cy="18" r="5" fill="#ffbd2e"/>
 <circle cx="46" cy="18" r="5" fill="#27c93f"/>
 <text x="185" y="22" text-anchor="middle" class="header-title">aditya@github ~ (portrait.dither.svg)</text>
+<g class="row-g" style="animation-delay: 0.000s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.000s" fill="freeze" />
 <rect class="dot" x="147.19" y="49.29" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="154.75" cy="50.58" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="160.25" cy="50.58" r="1.55" fill="#1f6feb"/>
@@ -25,6 +29,9 @@
 <circle class="dot" cx="198.75" cy="50.58" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="204.25" cy="50.58" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="207.69" y="49.29" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.035s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.035s" fill="freeze" />
 <rect class="dot" x="136.19" y="54.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="143.75" cy="55.73" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="149.25" cy="55.73" r="1.13" fill="#163866"/>
@@ -43,6 +50,9 @@
 <circle class="dot" cx="220.75" cy="55.73" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="224.19" y="54.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="229.69" y="54.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.070s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.070s" fill="freeze" />
 <rect class="dot" x="125.19" y="59.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="132.75" cy="60.88" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="138.25" cy="60.88" r="1.13" fill="#163866"/>
@@ -65,6 +75,9 @@
 <circle class="dot" cx="231.75" cy="60.88" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="235.19" y="59.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="240.69" y="59.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.105s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.105s" fill="freeze" />
 <circle class="dot" cx="121.75" cy="66.04" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="124.78" y="64.36" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
 <circle class="dot" cx="132.75" cy="66.04" r="1.55" fill="#1f6feb"/>
@@ -90,6 +103,9 @@
 <rect class="dot" x="240.28" y="64.36" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
 <circle class="dot" cx="248.25" cy="66.04" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="251.69" y="64.75" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.140s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.140s" fill="freeze" />
 <rect class="dot" x="114.19" y="69.90" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="121.75" cy="71.19" r="1.13" fill="#163866"/>
 <circle class="dot" cx="127.25" cy="71.19" r="1.55" fill="#1f6feb"/>
@@ -116,6 +132,9 @@
 <circle class="dot" cx="242.75" cy="71.19" r="1.13" fill="#163866"/>
 <circle class="dot" cx="248.25" cy="71.19" r="1.13" fill="#163866"/>
 <rect class="dot" x="251.28" y="69.52" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.175s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.175s" fill="freeze" />
 <rect class="dot" x="108.69" y="75.06" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="116.25" cy="76.35" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="121.75" cy="76.35" r="1.13" fill="#163866"/>
@@ -147,6 +166,9 @@
 <rect class="dot" x="262.27" y="74.67" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
 <circle class="dot" cx="270.25" cy="76.35" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="273.69" y="75.06" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.210s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.210s" fill="freeze" />
 <rect class="dot" x="103.19" y="80.21" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="110.75" cy="81.50" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="116.25" cy="81.50" r="1.13" fill="#163866"/>
@@ -181,6 +203,9 @@
 <rect class="dot" x="273.27" y="79.83" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
 <circle class="dot" cx="281.25" cy="81.50" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="284.69" y="80.21" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.245s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.245s" fill="freeze" />
 <rect class="dot" x="97.69" y="85.37" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="105.25" cy="86.65" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="110.75" cy="86.65" r="1.13" fill="#163866"/>
@@ -217,6 +242,9 @@
 <rect class="dot" x="279.19" y="85.37" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="284.69" y="85.37" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="290.19" y="85.37" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.280s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.280s" fill="freeze" />
 <rect class="dot" x="97.69" y="90.52" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="105.25" cy="91.81" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="110.75" cy="91.81" r="1.13" fill="#163866"/>
@@ -253,6 +281,9 @@
 <rect class="dot" x="279.19" y="90.52" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="284.69" y="90.52" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="290.19" y="90.52" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.315s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.315s" fill="freeze" />
 <circle class="dot" cx="99.75" cy="96.96" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="105.25" cy="96.96" r="1.13" fill="#163866"/>
 <circle class="dot" cx="110.75" cy="96.96" r="1.13" fill="#163866"/>
@@ -288,6 +319,9 @@
 <circle class="dot" cx="275.75" cy="96.96" r="1.13" fill="#163866"/>
 <rect class="dot" x="278.77" y="95.29" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
 <circle class="dot" cx="286.75" cy="96.96" r="1.96" fill="#388bfd"/>
+</g>
+<g class="row-g" style="animation-delay: 0.350s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.350s" fill="freeze" />
 <circle class="dot" cx="94.25" cy="102.12" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="99.75" cy="102.12" r="1.13" fill="#163866"/>
 <circle class="dot" cx="105.25" cy="102.12" r="1.13" fill="#163866"/>
@@ -324,6 +358,9 @@
 <circle class="dot" cx="275.75" cy="102.12" r="1.13" fill="#163866"/>
 <rect class="dot" x="278.77" y="100.44" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
 <rect class="dot" x="284.69" y="100.83" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.385s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.385s" fill="freeze" />
 <circle class="dot" cx="94.25" cy="107.27" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="99.75" cy="107.27" r="1.13" fill="#163866"/>
 <circle class="dot" cx="105.25" cy="107.27" r="1.13" fill="#163866"/>
@@ -361,6 +398,9 @@
 <rect class="dot" x="278.77" y="105.59" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
 <rect class="dot" x="284.69" y="105.98" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="290.19" y="105.98" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.420s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.420s" fill="freeze" />
 <circle class="dot" cx="99.75" cy="112.42" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="105.25" cy="112.42" r="1.13" fill="#163866"/>
 <circle class="dot" cx="110.75" cy="112.42" r="1.13" fill="#163866"/>
@@ -396,6 +436,9 @@
 <circle class="dot" cx="275.75" cy="112.42" r="1.13" fill="#163866"/>
 <rect class="dot" x="278.77" y="110.75" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
 <circle class="dot" cx="286.75" cy="112.42" r="1.96" fill="#388bfd"/>
+</g>
+<g class="row-g" style="animation-delay: 0.455s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.455s" fill="freeze" />
 <circle class="dot" cx="99.75" cy="117.58" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="105.25" cy="117.58" r="1.13" fill="#163866"/>
 <circle class="dot" cx="110.75" cy="117.58" r="1.13" fill="#163866"/>
@@ -431,6 +474,9 @@
 <circle class="dot" cx="275.75" cy="117.58" r="1.13" fill="#163866"/>
 <circle class="dot" cx="281.25" cy="117.58" r="1.13" fill="#163866"/>
 <rect class="dot" x="284.27" y="115.90" width="4.95" height="3.35" rx="1.5" fill="#79c0ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.490s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.490s" fill="freeze" />
 <circle class="dot" cx="99.75" cy="122.73" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="105.25" cy="122.73" r="1.13" fill="#163866"/>
 <circle class="dot" cx="110.75" cy="122.73" r="1.13" fill="#163866"/>
@@ -466,6 +512,9 @@
 <circle class="dot" cx="275.75" cy="122.73" r="1.13" fill="#163866"/>
 <circle class="dot" cx="281.25" cy="122.73" r="1.13" fill="#163866"/>
 <circle class="dot" cx="286.75" cy="122.73" r="1.96" fill="#388bfd"/>
+</g>
+<g class="row-g" style="animation-delay: 0.525s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.525s" fill="freeze" />
 <circle class="dot" cx="105.25" cy="127.88" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="110.75" cy="127.88" r="1.13" fill="#163866"/>
 <circle class="dot" cx="116.25" cy="127.88" r="1.13" fill="#163866"/>
@@ -500,6 +549,9 @@
 <circle class="dot" cx="275.75" cy="127.88" r="1.13" fill="#163866"/>
 <circle class="dot" cx="281.25" cy="127.88" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="284.69" y="126.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.560s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.560s" fill="freeze" />
 <circle class="dot" cx="105.25" cy="133.04" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="110.75" cy="133.04" r="1.13" fill="#163866"/>
 <circle class="dot" cx="116.25" cy="133.04" r="1.13" fill="#163866"/>
@@ -533,6 +585,9 @@
 <circle class="dot" cx="270.25" cy="133.04" r="1.13" fill="#163866"/>
 <circle class="dot" cx="275.75" cy="133.04" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="279.19" y="131.75" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.595s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.595s" fill="freeze" />
 <rect class="dot" x="103.19" y="136.90" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="110.75" cy="138.19" r="1.13" fill="#163866"/>
 <circle class="dot" cx="116.25" cy="138.19" r="1.13" fill="#163866"/>
@@ -565,6 +620,9 @@
 <circle class="dot" cx="264.75" cy="138.19" r="1.13" fill="#163866"/>
 <circle class="dot" cx="270.25" cy="138.19" r="1.13" fill="#163866"/>
 <rect class="dot" x="273.69" y="136.90" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.630s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.630s" fill="freeze" />
 <circle class="dot" cx="105.25" cy="143.35" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="110.75" cy="143.35" r="1.13" fill="#163866"/>
 <circle class="dot" cx="116.25" cy="143.35" r="1.13" fill="#163866"/>
@@ -596,6 +654,9 @@
 <circle class="dot" cx="259.25" cy="143.35" r="1.13" fill="#163866"/>
 <circle class="dot" cx="264.75" cy="143.35" r="1.13" fill="#163866"/>
 <circle class="dot" cx="270.25" cy="143.35" r="1.13" fill="#163866"/>
+</g>
+<g class="row-g" style="animation-delay: 0.665s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.665s" fill="freeze" />
 <circle class="dot" cx="99.75" cy="148.50" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="105.25" cy="148.50" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="110.75" cy="148.50" r="1.55" fill="#1f6feb"/>
@@ -629,6 +690,9 @@
 <circle class="dot" cx="264.75" cy="148.50" r="1.13" fill="#163866"/>
 <circle class="dot" cx="270.25" cy="148.50" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="273.69" y="147.21" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.700s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.700s" fill="freeze" />
 <rect class="dot" x="92.19" y="152.37" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="99.75" cy="153.65" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="105.25" cy="153.65" r="1.96" fill="#388bfd"/>
@@ -663,6 +727,9 @@
 <circle class="dot" cx="264.75" cy="153.65" r="1.13" fill="#163866"/>
 <circle class="dot" cx="270.25" cy="153.65" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="275.75" cy="153.65" r="1.96" fill="#388bfd"/>
+</g>
+<g class="row-g" style="animation-delay: 0.735s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.735s" fill="freeze" />
 <rect class="dot" x="92.19" y="157.52" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="99.75" cy="158.81" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="103.19" y="157.52" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
@@ -697,6 +764,9 @@
 <circle class="dot" cx="264.75" cy="158.81" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="270.25" cy="158.81" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="275.75" cy="158.81" r="1.96" fill="#388bfd"/>
+</g>
+<g class="row-g" style="animation-delay: 0.770s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.770s" fill="freeze" />
 <rect class="dot" x="92.19" y="162.67" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="99.75" cy="163.96" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="105.25" cy="163.96" r="1.96" fill="#388bfd"/>
@@ -731,6 +801,9 @@
 <circle class="dot" cx="264.75" cy="163.96" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="270.25" cy="163.96" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="275.75" cy="163.96" r="1.96" fill="#388bfd"/>
+</g>
+<g class="row-g" style="animation-delay: 0.805s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.805s" fill="freeze" />
 <rect class="dot" x="97.69" y="167.83" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="105.25" cy="169.12" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="110.75" cy="169.12" r="1.96" fill="#388bfd"/>
@@ -764,6 +837,9 @@
 <circle class="dot" cx="264.75" cy="169.12" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="270.25" cy="169.12" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="273.69" y="167.83" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.840s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.840s" fill="freeze" />
 <rect class="dot" x="97.69" y="172.98" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="105.25" cy="174.27" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="110.75" cy="174.27" r="1.96" fill="#388bfd"/>
@@ -797,6 +873,9 @@
 <circle class="dot" cx="264.75" cy="174.27" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="270.25" cy="174.27" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="273.69" y="172.98" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.875s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.875s" fill="freeze" />
 <rect class="dot" x="103.19" y="178.13" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="108.69" y="178.13" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="114.19" y="178.13" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
@@ -828,6 +907,9 @@
 <circle class="dot" cx="259.25" cy="179.42" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="262.69" y="178.13" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="268.19" y="178.13" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.910s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.910s" fill="freeze" />
 <rect class="dot" x="108.69" y="183.29" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="114.19" y="183.29" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="119.69" y="183.29" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
@@ -857,6 +939,9 @@
 <rect class="dot" x="251.69" y="183.29" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="259.25" cy="184.58" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="262.69" y="183.29" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.945s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.945s" fill="freeze" />
 <rect class="dot" x="114.19" y="188.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="119.69" y="188.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="127.25" cy="189.73" r="1.96" fill="#388bfd"/>
@@ -884,6 +969,9 @@
 <rect class="dot" x="246.19" y="188.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="251.69" y="188.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <rect class="dot" x="257.19" y="188.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 0.980s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="0.980s" fill="freeze" />
 <rect class="dot" x="125.19" y="193.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="132.75" cy="194.88" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="136.19" y="193.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
@@ -907,6 +995,9 @@
 <rect class="dot" x="235.19" y="193.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="242.75" cy="194.88" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="246.19" y="193.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.015s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.015s" fill="freeze" />
 <circle class="dot" cx="132.75" cy="200.04" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="138.25" cy="200.04" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="143.75" cy="200.04" r="1.96" fill="#388bfd"/>
@@ -929,6 +1020,9 @@
 <circle class="dot" cx="237.25" cy="200.04" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="242.75" cy="200.04" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="246.19" y="198.75" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.050s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.050s" fill="freeze" />
 <rect class="dot" x="130.69" y="203.90" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="138.25" cy="205.19" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="143.75" cy="205.19" r="1.96" fill="#388bfd"/>
@@ -950,6 +1044,9 @@
 <circle class="dot" cx="231.75" cy="205.19" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="237.25" cy="205.19" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="240.69" y="203.90" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.085s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.085s" fill="freeze" />
 <rect class="dot" x="130.69" y="209.06" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="138.25" cy="210.35" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="143.75" cy="210.35" r="1.96" fill="#388bfd"/>
@@ -971,6 +1068,9 @@
 <circle class="dot" cx="231.75" cy="210.35" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="237.25" cy="210.35" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="240.69" y="209.06" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.120s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.120s" fill="freeze" />
 <rect class="dot" x="130.69" y="214.21" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="138.25" cy="215.50" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="143.75" cy="215.50" r="1.96" fill="#388bfd"/>
@@ -991,6 +1091,9 @@
 <circle class="dot" cx="226.25" cy="215.50" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="231.75" cy="215.50" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="235.19" y="214.21" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.155s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.155s" fill="freeze" />
 <rect class="dot" x="130.69" y="219.37" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="138.25" cy="220.65" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="143.75" cy="220.65" r="1.96" fill="#388bfd"/>
@@ -1010,6 +1113,9 @@
 <circle class="dot" cx="220.75" cy="220.65" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="226.25" cy="220.65" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="231.75" cy="220.65" r="1.96" fill="#388bfd"/>
+</g>
+<g class="row-g" style="animation-delay: 1.190s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.190s" fill="freeze" />
 <circle class="dot" cx="127.25" cy="225.81" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="132.75" cy="225.81" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="136.19" y="224.52" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
@@ -1031,6 +1137,9 @@
 <circle class="dot" cx="226.25" cy="225.81" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="231.75" cy="225.81" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="237.25" cy="225.81" r="1.55" fill="#1f6feb"/>
+</g>
+<g class="row-g" style="animation-delay: 1.225s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.225s" fill="freeze" />
 <circle class="dot" cx="121.75" cy="230.96" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="127.25" cy="230.96" r="1.13" fill="#163866"/>
 <circle class="dot" cx="132.75" cy="230.96" r="1.55" fill="#1f6feb"/>
@@ -1054,6 +1163,9 @@
 <rect class="dot" x="229.69" y="229.67" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="237.25" cy="230.96" r="1.13" fill="#163866"/>
 <circle class="dot" cx="242.75" cy="230.96" r="1.55" fill="#1f6feb"/>
+</g>
+<g class="row-g" style="animation-delay: 1.260s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.260s" fill="freeze" />
 <rect class="dot" x="114.19" y="234.83" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="121.75" cy="236.12" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="127.25" cy="236.12" r="1.13" fill="#163866"/>
@@ -1079,6 +1191,9 @@
 <circle class="dot" cx="237.25" cy="236.12" r="1.13" fill="#163866"/>
 <circle class="dot" cx="242.75" cy="236.12" r="1.13" fill="#163866"/>
 <rect class="dot" x="246.19" y="234.83" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.295s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.295s" fill="freeze" />
 <circle class="dot" cx="116.25" cy="241.27" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="121.75" cy="241.27" r="1.13" fill="#163866"/>
 <circle class="dot" cx="127.25" cy="241.27" r="1.13" fill="#163866"/>
@@ -1104,6 +1219,9 @@
 <circle class="dot" cx="237.25" cy="241.27" r="1.13" fill="#163866"/>
 <circle class="dot" cx="242.75" cy="241.27" r="1.13" fill="#163866"/>
 <circle class="dot" cx="248.25" cy="241.27" r="1.55" fill="#1f6feb"/>
+</g>
+<g class="row-g" style="animation-delay: 1.330s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.330s" fill="freeze" />
 <rect class="dot" x="108.69" y="245.13" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="116.25" cy="246.42" r="1.13" fill="#163866"/>
 <circle class="dot" cx="121.75" cy="246.42" r="1.13" fill="#163866"/>
@@ -1131,6 +1249,9 @@
 <circle class="dot" cx="242.75" cy="246.42" r="1.13" fill="#163866"/>
 <circle class="dot" cx="248.25" cy="246.42" r="1.13" fill="#163866"/>
 <rect class="dot" x="251.69" y="245.13" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.365s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.365s" fill="freeze" />
 <circle class="dot" cx="110.75" cy="251.58" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="116.25" cy="251.58" r="1.13" fill="#163866"/>
 <circle class="dot" cx="121.75" cy="251.58" r="1.13" fill="#163866"/>
@@ -1158,6 +1279,9 @@
 <circle class="dot" cx="242.75" cy="251.58" r="1.13" fill="#163866"/>
 <circle class="dot" cx="248.25" cy="251.58" r="1.13" fill="#163866"/>
 <circle class="dot" cx="253.75" cy="251.58" r="1.55" fill="#1f6feb"/>
+</g>
+<g class="row-g" style="animation-delay: 1.400s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.400s" fill="freeze" />
 <rect class="dot" x="92.19" y="255.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="99.75" cy="256.73" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="105.25" cy="256.73" r="1.55" fill="#1f6feb"/>
@@ -1191,6 +1315,9 @@
 <circle class="dot" cx="259.25" cy="256.73" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="264.75" cy="256.73" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="268.19" y="255.44" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.435s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.435s" fill="freeze" />
 <rect class="dot" x="75.69" y="260.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="83.25" cy="261.88" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="88.75" cy="261.88" r="1.55" fill="#1f6feb"/>
@@ -1230,6 +1357,9 @@
 <circle class="dot" cx="275.75" cy="261.88" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="281.25" cy="261.88" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="284.69" y="260.60" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.470s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.470s" fill="freeze" />
 <rect class="dot" x="64.69" y="265.75" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="72.25" cy="267.04" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="77.75" cy="267.04" r="1.13" fill="#163866"/>
@@ -1274,6 +1404,9 @@
 <circle class="dot" cx="292.25" cy="267.04" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="297.75" cy="267.04" r="1.96" fill="#388bfd"/>
 <rect class="dot" x="301.19" y="265.75" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.505s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.505s" fill="freeze" />
 <circle class="dot" cx="55.75" cy="272.19" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="61.25" cy="272.19" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="66.75" cy="272.19" r="1.13" fill="#163866"/>
@@ -1322,6 +1455,9 @@
 <circle class="dot" cx="303.25" cy="272.19" r="1.13" fill="#163866"/>
 <circle class="dot" cx="308.75" cy="272.19" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="314.25" cy="272.19" r="1.96" fill="#388bfd"/>
+</g>
+<g class="row-g" style="animation-delay: 1.540s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.540s" fill="freeze" />
 <rect class="dot" x="37.19" y="276.06" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="44.75" cy="277.35" r="1.96" fill="#388bfd"/>
 <circle class="dot" cx="50.25" cy="277.35" r="1.55" fill="#1f6feb"/>
@@ -1376,6 +1512,9 @@
 <circle class="dot" cx="319.75" cy="277.35" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="325.25" cy="277.35" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="328.69" y="276.06" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.575s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.575s" fill="freeze" />
 <rect class="dot" x="26.19" y="281.21" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
 <circle class="dot" cx="33.75" cy="282.50" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="39.25" cy="282.50" r="1.13" fill="#163866"/>
@@ -1434,6 +1573,9 @@
 <circle class="dot" cx="330.75" cy="282.50" r="1.13" fill="#163866"/>
 <circle class="dot" cx="336.25" cy="282.50" r="1.55" fill="#1f6feb"/>
 <rect class="dot" x="339.69" y="281.21" width="4.12" height="2.58" rx="1" fill="#58a6ff"/>
+</g>
+<g class="row-g" style="animation-delay: 1.610s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.610s" fill="freeze" />
 <circle class="dot" cx="22.75" cy="287.65" r="1.55" fill="#1f6feb"/>
 <circle class="dot" cx="28.25" cy="287.65" r="1.13" fill="#163866"/>
 <circle class="dot" cx="33.75" cy="287.65" r="1.13" fill="#163866"/>
@@ -1494,6 +1636,9 @@
 <circle class="dot" cx="336.25" cy="287.65" r="1.13" fill="#163866"/>
 <circle class="dot" cx="341.75" cy="287.65" r="1.13" fill="#163866"/>
 <circle class="dot" cx="347.25" cy="287.65" r="1.55" fill="#1f6feb"/>
+</g>
+<g class="row-g" style="animation-delay: 1.645s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.645s" fill="freeze" />
 <circle class="dot" cx="22.75" cy="292.81" r="1.13" fill="#163866"/>
 <circle class="dot" cx="28.25" cy="292.81" r="1.13" fill="#163866"/>
 <circle class="dot" cx="33.75" cy="292.81" r="1.13" fill="#163866"/>
@@ -1554,6 +1699,9 @@
 <circle class="dot" cx="336.25" cy="292.81" r="1.13" fill="#163866"/>
 <circle class="dot" cx="341.75" cy="292.81" r="1.13" fill="#163866"/>
 <circle class="dot" cx="347.25" cy="292.81" r="1.13" fill="#163866"/>
+</g>
+<g class="row-g" style="animation-delay: 1.680s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.680s" fill="freeze" />
 <circle class="dot" cx="22.75" cy="297.96" r="1.13" fill="#163866"/>
 <circle class="dot" cx="28.25" cy="297.96" r="1.13" fill="#163866"/>
 <circle class="dot" cx="33.75" cy="297.96" r="1.13" fill="#163866"/>
@@ -1614,6 +1762,9 @@
 <circle class="dot" cx="336.25" cy="297.96" r="1.13" fill="#163866"/>
 <circle class="dot" cx="341.75" cy="297.96" r="1.13" fill="#163866"/>
 <circle class="dot" cx="347.25" cy="297.96" r="1.13" fill="#163866"/>
+</g>
+<g class="row-g" style="animation-delay: 1.715s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.715s" fill="freeze" />
 <circle class="dot" cx="22.75" cy="303.12" r="1.13" fill="#163866"/>
 <circle class="dot" cx="28.25" cy="303.12" r="1.13" fill="#163866"/>
 <circle class="dot" cx="33.75" cy="303.12" r="1.13" fill="#163866"/>
@@ -1674,6 +1825,9 @@
 <circle class="dot" cx="336.25" cy="303.12" r="1.13" fill="#163866"/>
 <circle class="dot" cx="341.75" cy="303.12" r="1.13" fill="#163866"/>
 <circle class="dot" cx="347.25" cy="303.12" r="1.13" fill="#163866"/>
+</g>
+<g class="row-g" style="animation-delay: 1.750s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.750s" fill="freeze" />
 <circle class="dot" cx="22.75" cy="308.27" r="1.13" fill="#163866"/>
 <circle class="dot" cx="28.25" cy="308.27" r="1.13" fill="#163866"/>
 <circle class="dot" cx="33.75" cy="308.27" r="1.13" fill="#163866"/>
@@ -1734,6 +1888,9 @@
 <circle class="dot" cx="336.25" cy="308.27" r="1.13" fill="#163866"/>
 <circle class="dot" cx="341.75" cy="308.27" r="1.13" fill="#163866"/>
 <circle class="dot" cx="347.25" cy="308.27" r="1.13" fill="#163866"/>
+</g>
+<g class="row-g" style="animation-delay: 1.785s;" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.785s" fill="freeze" />
 <circle class="dot" cx="22.75" cy="313.42" r="1.13" fill="#163866"/>
 <circle class="dot" cx="28.25" cy="313.42" r="1.13" fill="#163866"/>
 <circle class="dot" cx="33.75" cy="313.42" r="1.13" fill="#163866"/>
@@ -1794,4 +1951,5 @@
 <circle class="dot" cx="336.25" cy="313.42" r="1.13" fill="#163866"/>
 <circle class="dot" cx="341.75" cy="313.42" r="1.13" fill="#163866"/>
 <circle class="dot" cx="347.25" cy="313.42" r="1.13" fill="#163866"/>
+</g>
 </svg>
