@@ -1,14 +1,12 @@
 <div align="center">
 
-<h3><code>aditya@github ~ $ ./contributions.sh</code></h3>
+<!-- Custom Contribution Heatmap -->
+<img src="./contrib-heatmap.svg" alt="Aditya's Contribution Heatmap" width="840" />
 
-<img src="./contrib-heatmap.svg" width="860" />
+<br/><br/>
 
-<br><br>
-
-<h3><code>aditya@github ~ $ whoami</code></h3>
-
-<img src="./info-card.svg" width="500" />
+<!-- Terminal Info Card -->
+<img src="./info-card.svg" alt="Aditya's Terminal Profile Card" width="620" />
 
 </div>
 
@@ -16,12 +14,10 @@
 
 # Hi 👋, I'm Aditya Runwal
 
-<h3 align="center">Aspiring AI/ML Engineer | Exploring Machine Learning, Deep Learning & Generative AI</h3>
+<h3 align="center">Aspiring AI/ML Engineer | Exploring Machine Learning, Deep Learning &amp; Generative AI</h3>
 
 <p align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=00C2FF&center=true&vCenter=true&width=650&lines=Aspiring+AI%2FML+Engineer;Learning+Machine+Learning+and+Deep+Learning;Exploring+Generative+AI+and+LLMs;Building+Projects+and+Learning+Every+Day" alt="Typing SVG" />
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=3500&amp;pause=1000&amp;color=00C2FF&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Aspiring+AI%2FML+Engineer;Learning+Machine+Learning+and+Deep+Learning;Exploring+Generative+AI+and+LLMs;Building+Projects+and+Learning+Every+Day" alt="Typing SVG" />
 </p>
 
 ---
@@ -41,27 +37,27 @@
 ### 💻 Programming Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,java" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,java" alt="Programming Languages" />
 </p>
 
-### 🤖 AI / Machine Learning & Data Science
+### 🤖 AI / Machine Learning &amp; Data Science
 
 <p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" alt="AI Frameworks" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge" alt="Seaborn" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&amp;logo=scikit-learn&amp;logoColor=white" alt="Scikit-Learn" />
 </p>
 
-### 🗄️ Databases & Tools
+### 🗄️ Databases &amp; Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,git,github" />
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,git,github" alt="Databases and Tools" />
 </p>
 
 ---
@@ -69,25 +65,12 @@
 ## 📊 GitHub Statistics
 
 <p align="center">
-
-<img 
-src="https://github-readme-stats.vercel.app/api?username=AdityaRunwal&show_icons=true&theme=tokyonight&hide_border=true" 
-height="165"
-/>
-
-<img 
-src="https://streak-stats.demolab.com?user=AdityaRunwal&theme=tokyonight&hide_border=true" 
-height="165"
-/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=AdityaRunwal&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true" height="165" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=AdityaRunwal&amp;theme=tokyonight&amp;hide_border=true" height="165" alt="Streak Stats" />
 </p>
 
 <p align="center">
-
-<img 
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRunwal&layout=compact&theme=tokyonight&hide_border=true"
-/>
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRunwal&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
 </p>
 
 ---
@@ -95,27 +78,24 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRunwal
 ## 🌐 Connect With Me
 
 <p align="center">
-
-<a href="https://www.linkedin.com/in/aditya-runwal-b9a85b322">
-  <img src="https://img.shields.io/badge/LinkedIn-Aditya%20Runwal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://x.com/AdityaRunwal229">
-  <img src="https://img.shields.io/badge/X-AdityaRunwal229-black?style=for-the-badge&logo=x&logoColor=white" />
-</a>
-
-<a href="mailto:adityarunwal22@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
+  <a href="https://www.linkedin.com/in/aditya-runwal-b9a85b322">
+    <img src="https://img.shields.io/badge/LinkedIn-Aditya%20Runwal-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/AdityaRunwal229">
+    <img src="https://img.shields.io/badge/X-AdityaRunwal229-black?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="X" />
+  </a>
+  <a href="mailto:adityarunwal22@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" />
+  </a>
 </p>
 
 ---
 
 <p align="center">
-<i>"Learning, building, and growing — one project at a time."</i>
+  <i>"Learning, building, and growing — one project at a time."</i>
 </p>
 
 <p align="center">
-⭐ <b>Always curious. Always learning. Always building.</b> ⭐
+  ⭐ <b>Always curious. Always learning. Always building.</b> ⭐
 </p>
+
