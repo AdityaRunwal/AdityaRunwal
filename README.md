@@ -1,12 +1,17 @@
 <div align="center">
 
-<!-- Custom Contribution Heatmap -->
-<img src="./contrib-heatmap.svg" alt="Aditya's Contribution Heatmap" width="840" />
+<h3><code>aditya@github ~ $ whoami</code></h3>
 
-<br/><br/>
-
-<!-- Terminal Info Card -->
-<img src="./info-card.svg" alt="Aditya's Terminal Profile Card" width="620" />
+<table>
+  <tr>
+    <td valign="top">
+      <img src="./avi-ascii.svg" width="370" alt="Dotted Terminal Portrait" />
+    </td>
+    <td valign="top">
+      <img src="./info-card.svg" width="500" alt="Terminal Info Card" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
