@@ -398,7 +398,7 @@
 <rect class="cell" x="716" y="81" width="10" height="10" fill="#006d32"><title>2026-09-01: level 2</title></rect>
 <rect class="cell" x="716" y="94" width="10" height="10" fill="#006d32"><title>2026-09-02: level 2</title></rect>
 <rect class="cell" x="716" y="107" width="10" height="10" fill="#006d32"><title>2026-09-03: level 2</title></rect>
-<rect class="cell" x="716" y="120" width="10" height="10" fill="#161b22"><title>2026-09-04: level 0</title></rect>
+<rect class="cell" x="716" y="120" width="10" height="10" fill="#006d32"><title>2026-09-04: level 2</title></rect>
 <rect class="cell" x="716" y="133" width="10" height="10" fill="#161b22"><title>2026-09-05: level 0</title></rect>
 <text x="40" y="173" class="label-text">Less</text>
 <rect class="cell" x="72" y="164" width="10" height="10" fill="#161b22"/>
